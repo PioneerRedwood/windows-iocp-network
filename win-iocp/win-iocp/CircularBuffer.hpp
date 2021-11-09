@@ -1,9 +1,11 @@
 #pragma once
 #include "predef.hpp"
 
+// 순환 버퍼
 class CircularBuffer
 {
 public:
+	// 버퍼 크기로 생성자
 	CircularBuffer(size_t capacity)
 		: mBRegionPointer{ nullptr }, mARegionSize{ 0 },
 		mBRegionSize{0}, mCapacity{capacity}

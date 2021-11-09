@@ -155,7 +155,7 @@ public:
 	
 	bool PostAccept() 
 	{
-		CRASH_ASSERT(LThreadType == (int)THREAD_TYPE::THREAD_MAIN_ACCEPT);
+		CRASH_ASSERT(LThreadType == (int)THREAD_TYPE::THREAD_MAIN);
 
 		OverlappedAcceptContext* acceptContext = new OverlappedAcceptContext(this);
 

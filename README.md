@@ -38,7 +38,9 @@ boost-asio는 C++ 크로스 플랫폼 네트워크 라이브러리이며, 크게
 
 
 
+### #3, 4 Advanced Server
 
+감사하게도 많은걸 배우고 있다.. 🙏
 
 
 
@@ -46,5 +48,9 @@ boost-asio는 C++ 크로스 플랫폼 네트워크 라이브러리이며, 크게
 
 ## 학습에 참고가 된 감사한 분들 👏
 
-- https://onecellboy.tistory.com/126 
-- https://github.com/zeliard/GSP
+- WinSock IOCP 펌 https://onecellboy.tistory.com/126 
+- 학습 기초 자료 https://github.com/zeliard/GSP
+- WinNT.h에 있는 단방향 연결 리스트(SLIST)에 대한 정리 
+  - 다른 분의 한글 설명 https://lacti.github.io/2011/08/03/interlocked-singly-linked-lists/
+  - 공식 문서 https://docs.microsoft.com/en-us/windows/win32/sync/interlocked-singly-linked-lists
+

@@ -25,7 +25,7 @@ public:
 
 	void PrepareSessions()
 	{
-		CRASH_ASSERT(LThreadType == static_cast<int>(THREAD_TYPE::THREAD_MAIN_ACCEPT));
+		CRASH_ASSERT(LThreadType == static_cast<int>(THREAD_TYPE::THREAD_MAIN));
 
 		for (int i = 0; i < MAX_CONNECTION; ++i)
 		{

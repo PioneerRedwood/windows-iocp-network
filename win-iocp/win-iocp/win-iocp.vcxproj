@@ -21,12 +21,22 @@
   <ItemGroup>
     <ClInclude Include="CircularBuffer.hpp" />
     <ClInclude Include="ClientSession.hpp" />
-    <ClInclude Include="EduEchoServer.hpp" />
+    <ClInclude Include="EduEchoServer.cpp" />
     <ClInclude Include="Exception.hpp" />
     <ClInclude Include="FastSpinLock.hpp" />
+    <ClInclude Include="GrandCentralExecutor.hpp" />
     <ClInclude Include="IocpManager.hpp" />
+    <ClInclude Include="LockOrderChecker.hpp" />
+    <ClInclude Include="MemoryPool.hpp" />
+    <ClInclude Include="ObjectPool.hpp" />
+    <ClInclude Include="Player.hpp" />
     <ClInclude Include="predef.hpp" />
     <ClInclude Include="SessionManager.hpp" />
+    <ClInclude Include="SyncExecutable.hpp" />
+    <ClInclude Include="ThreadLocal.hpp" />
+    <ClInclude Include="Timer.hpp" />
+    <ClInclude Include="TypeTraits.hpp" />
+    <ClInclude Include="XTL.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

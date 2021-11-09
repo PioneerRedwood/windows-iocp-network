@@ -4,22 +4,22 @@
 #include "ClientSession.hpp"
 #include "SessionManager.hpp"
 #include "IocpManager.hpp"
+#include <tchar.h>
 
 constexpr auto LISTEN_PORT = 9001;
+#define MAX_CONNECTION 10000;
 
 __declspec(thread) int LThreadType = -1;
 
 enum class THREAD_TYPE : int
 {
-	THREAD_MAIN_ACCEPT,
+	THREAD_MAIN,
 	THREAD_IO_WORKER,
 };
 
-extern __declspec(thread) int LThreadType;
-
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LThreadType = static_cast<int>(THREAD_TYPE::THREAD_MAIN_ACCEPT);
+	LThreadType = static_cast<int>(THREAD_TYPE::THREAD_MAIN);
 
 	SetUnhandledExceptionFilter(ExceptionFilter);
 
