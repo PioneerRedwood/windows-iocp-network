@@ -44,6 +44,24 @@ boost-asio는 C++ 크로스 플랫폼 네트워크 라이브러리이며, 크게
 
 
 
+#### Middle check
+
+##### zeliard/GSP Homework #1~4
+
+지금껏 윈도우 프로그래밍에서 쓰이는 테크닉, 각종 자료구조와 알고리즘들을 따라 코딩해보며 옅볼수 있었다. 단순히 코딩한다고 해서 내것이 되는 것이 아니기 때문에 추후에 여기서 쓰인 기술들을 참고해 적용할 것이며 처음 봐서 몰랐거나 헷갈리는 작업들은 모두 기록해놓을 예정이다.
+
+IOCP 기본.
+
+Input Output Completion Port
+
+
+
+지금은 ObjectPool, MemoryPool, 
+
+##### MSSQL DB usage from zeliard/GSP Homework #5
+
+
+
 
 
 ## 학습에 참고가 된 감사한 분들 👏

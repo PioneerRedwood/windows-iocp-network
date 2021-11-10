@@ -18,33 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CircularBuffer.hpp" />
-    <ClInclude Include="ClientSession.hpp" />
-    <ClInclude Include="EduEchoServer.cpp" />
-    <ClInclude Include="Exception.hpp" />
-    <ClInclude Include="FastSpinLock.hpp" />
-    <ClInclude Include="GrandCentralExecutor.hpp" />
-    <ClInclude Include="IocpManager.hpp" />
-    <ClInclude Include="LockOrderChecker.hpp" />
-    <ClInclude Include="MemoryPool.hpp" />
-    <ClInclude Include="ObjectPool.hpp" />
-    <ClInclude Include="Player.hpp" />
-    <ClInclude Include="PlayerManager.hpp" />
-    <ClInclude Include="PlayerWideEvent.hpp" />
-    <ClInclude Include="predef.hpp" />
-    <ClInclude Include="SessionManager.hpp" />
-    <ClInclude Include="SyncExecutable.hpp" />
-    <ClInclude Include="ThreadLocal.hpp" />
-    <ClInclude Include="Timer.hpp" />
-    <ClInclude Include="TypeTraits.hpp" />
-    <ClInclude Include="XTL.hpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3b150cf9-938d-4c7f-a595-3ccaf1cbd5d3}</ProjectGuid>
-    <RootNamespace>winiocp</RootNamespace>
+    <ProjectGuid>{4114adca-d32c-42dc-898d-55f9005f8d9a}</ProjectGuid>
+    <RootNamespace>SomeTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -161,6 +139,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleIocpServer.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ClientSession.hpp">
+    <ClInclude Include="CircularBuffer.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Exception.hpp">
@@ -27,53 +27,31 @@
     <ClInclude Include="IocpManager.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="SessionManager.hpp">
+    <ClInclude Include="ObjectPool.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="predef.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="CircularBuffer.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="EduEchoServer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="MemoryPool.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjectPool.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="XTL.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="GrandCentralExecutor.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="TypeTraits.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="ThreadLocal.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="LockOrderChecker.hpp">
+    <ClInclude Include="Session.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Player.hpp">
+    <ClInclude Include="OverlappedIOContext.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="SyncExecutable.hpp">
+    <ClInclude Include="WorkerThread.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Timer.hpp">
+    <ClInclude Include="ServerSession.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerManager.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerWideEvent.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EduEchoServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 #pragma once
 #include "predef.hpp"
-#include "EduEchoServer.hpp"
+#include "EduEchoServer.cpp"
 #include "ClientSession.hpp"
 #include "SessionManager.hpp"
 
