@@ -44,7 +44,7 @@ boost-asio는 C++ 크로스 플랫폼 네트워크 라이브러리이며, 크게
 
 
 
-#### Middle check
+## Middle check
 
 ##### zeliard/GSP Homework #1~4
 
@@ -58,9 +58,19 @@ Input Output Completion Port
 
 지금은 ObjectPool, MemoryPool, 
 
-##### MSSQL DB usage from zeliard/GSP Homework #5
+##### ~~MSSQL DB usage from zeliard/GSP Homework #5~~
+
+##### try-catch(exception) vs assertion
+
+try-catch는 프로세스의 흐름에 있어서 예상하지 못한 오류를 처리하기 위해 사용되는 것, assert는 코드 내에서 들어오는 비정상적인 값 혹은 방식들을 처리하기 위해 사용되는 것.. [참고한 스택오버플로우 토론](https://stackoverflow.com/questions/4333371/when-to-use-assert-and-when-to-use-try-catch)
+
+논리적으로 실패가 불가능한 조건들을 검증하기 위해서만 assertion이 사용, 개발자의 코드 상으로부터 발생하는 입력에 기반한 조건들이다. 사용자 입장에서는 외부 입력이며 이는 exception을 사용해야한다. [참고한 스택익스체인지 토론](https://softwareengineering.stackexchange.com/questions/15515/when-to-use-assertions-and-when-to-use-exceptions) 두 기능을 적절하게 사용하여 프로그램의 완성도(안정성)를 높일 수 있다. 
 
 
+
+## 마무리?
+
+Windows의 IOCP기술에 대해 클론 코딩(따라쓰기)을 진행하며 어떤 것인지 눈과 손으로만 흘겼다. 자세한 내막의 원리를 이해하기 위해 나만의 서버를 만드는 것이 중요하다. 이에 대해선 추후에 진행할 예정이다. 지금은 여기서 마무리하고 boost-asio에서 구현하던 로비 서버에 mysql 서버와 통신, redis 적용을 진행할 예정이다.
 
 
 
